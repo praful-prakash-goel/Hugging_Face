@@ -44,7 +44,7 @@ Optional: For GPU support, ensure PyTorch is installed with CUDA support.
    ```
 
 3. **Run the notebook**:
-   Open the Jupyter notebook (`train_mlm.ipynb`) in your environment (e.g., JupyterLab or VSCode) and execute the cells to preprocess data, train the model, and push it to the Hugging Face Hub.
+   Open the Jupyter notebook (`Masked_Language_Model.ipynb`) in your environment (e.g., JupyterLab or VSCode) and execute the cells to preprocess data, train the model, and push it to the Hugging Face Hub.
 
 ## Training
 The model is fine-tuned using the `Trainer` API from Hugging Face with the following setup:
